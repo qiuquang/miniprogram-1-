@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/imgshow/imgshow",
+    "pages/home/imgshow2/imgshow",
+    "pages/list/list",
+    "pages/partner/partner",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "槑头槑脑",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/home.png",
+        "selectedIconPath": "assets/home_active.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "活动",
+        "iconPath": "assets/list.png",
+        "selectedIconPath": "assets/list_active.png"
+      },
+      {
+        "pagePath": "pages/partner/partner",
+        "text": "伙伴",
+        "iconPath": "assets/partner.png",
+        "selectedIconPath": "assets/partner_active.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath": "assets/more.png",
+        "selectedIconPath": "assets/more_active.png"
+      }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

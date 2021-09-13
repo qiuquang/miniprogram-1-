@@ -1,0 +1,7 @@
+<!--pages/home/imgshow2/imgshow.wxml-->
+<view id="imgsection">
+  <view class="title">任意门</view>
+  <view class="imglist">
+    <image class="imgicon" mode="widthFix" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/duola.jpg?sign=49f4a7804a240b2782c30f1bb25b823c&t=1631527215"></image>
+  </view>
+</view>

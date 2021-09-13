@@ -1,0 +1,7 @@
+<!--pages/home/imgshow/imgshow.wxml-->
+<view id="imgsection">
+  <view class="title">真相只有一个</view>
+  <view class="imglist">
+    <image class="imgicon" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/kenan.jpg?sign=3831201c8e2fcd800fed1b133d646586&t=1631526441"></image>
+  </view>
+</view>

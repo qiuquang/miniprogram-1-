@@ -1,0 +1,18 @@
+/* pages/home/imgshow2/imgshow.wxss */
+.imglist, .title{
+    text-align: center;
+    margin-bottom: 20rpx;
+  }
+  /* .imglist .imgicon{
+    width: 348px;
+    height: 512px;
+  } */
+  .imglist{
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 20rpx;
+  }
+  .imgicon{
+    border-radius: 8px;
+    width: 100%;
+  }

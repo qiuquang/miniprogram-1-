@@ -1,0 +1,5 @@
+<!--pages/transform/transform3/transform3.wxml-->
+<view>
+	<text>盒子的多个属性一起动画: width, height, background-color, transform. 将鼠标或手指悬停在盒子上查看动画之后放开。</text>
+	<view class="animatebox" hover-class="animatebox-hover"></view>
+</view>

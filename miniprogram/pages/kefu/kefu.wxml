@@ -1,0 +1,4 @@
+<!--pages/kefu/kefu.wxml-->
+<button open-type="contact">联系客服</button>
+
+<web-view src="https://mp.weixin.qq.com/cgi-bin/wx"></web-view>

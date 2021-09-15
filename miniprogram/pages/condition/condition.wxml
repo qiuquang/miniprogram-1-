@@ -1,0 +1,11 @@
+<!--pages/condition/condition.wxml-->
+<view wx:if="{{female > 5}}"> 如果女生人数多于5人就显示</view>
+<view wx:if="{{female > 10}}"> 如果女生人数多于10人就显示</view>
+
+<view wx:if="{{show}}">通过data里面的布尔值来控制是否显示</view>
+
+
+<view wx:if="{{false}}">组件不显示不渲染if</view>
+<view hidden="{{true}}">组件不显示-hidden1</view>
+<view hidden>组件不显示-hidden2</view>
+<view hidden="{{false}}">组件显示-hidden3</view>

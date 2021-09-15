@@ -1,0 +1,9 @@
+/* pages/transform/transform2.wxss */
+.box{width: 150px;height: 150px;}
+.bg-color{
+	background-color:green;
+}
+.bg-color-hover{
+	background-color: yellow;
+	transition: background-color 5s ease-out 3s;
+}

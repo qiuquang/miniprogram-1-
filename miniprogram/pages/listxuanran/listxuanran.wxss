@@ -1,0 +1,8 @@
+/* pages/listxuanran/listxuanran.wxss */
+.weui-media-box__hd_in-appmsg{
+    height: auto;
+  }
+  .weui-grid{
+    width: 33.33%;
+    text-align: center;
+  }

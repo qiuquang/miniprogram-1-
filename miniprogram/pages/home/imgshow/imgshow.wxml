@@ -4,4 +4,6 @@
   <view class="imglist">
     <image class="imgicon" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/kenan.jpg?sign=3831201c8e2fcd800fed1b133d646586&t=1631526441"></image>
   </view>
+
+  <button bindtap="navigateBack">返回上一页</button>
 </view>

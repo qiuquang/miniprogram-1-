@@ -1,9 +1,12 @@
 {
   "pages": [
+    "pages/lifecyle/lifecyle",
+    "pages/pagexuanran/pagexuanran",
+    "pages/home/home",
+    "pages/home/detail/detail",
     "pages/tapevent/tapevent",
     "pages/swiper/swiper",
     "pages/kefu/kefu",
-    "pages/home/home",
     "pages/map/map",
     "pages/video/video",
     "pages/condition/condition",

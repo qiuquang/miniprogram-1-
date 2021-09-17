@@ -1,4 +1,4 @@
-// pages/home/imgshow/imgshow.js
+// pages/home/detail/detail.js
 Page({
 
     /**
@@ -13,6 +13,7 @@ Page({
      */
     onLoad: function (options) {
 
+        console.log(options)
     },
 
     /**
@@ -62,10 +63,5 @@ Page({
      */
     onShareAppMessage: function () {
 
-    },
-    navigateBack() {
-        wx.navigateBack({
-            delta: 1
-        })
-      },
+    }
 })

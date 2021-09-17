@@ -100,4 +100,28 @@ Page({
           }
         })
       },
+
+      actionSheetTap() {
+        wx.showActionSheet({
+          itemList: ['添加照片', '删除照片', '更新照片', '查询更多'],
+          success(e) {
+            console.log(e.tapIndex)
+          }
+        })
+      },
+      navigateTo() {
+        wx.navigateTo({
+          url: '/pages/home/imgshow/imgshow'
+        })
+      },
+      switchTab() {
+        wx.switchTab({
+          url: "/pages/list/list",
+        })
+      },
+      redirectTo() {
+        wx.redirectTo({
+            url: '/pages/home/imgshow/imgshow'
+        })
+      },
 })
